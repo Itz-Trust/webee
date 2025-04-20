@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <div class="container">
+            <a href="#" class="logo">Portfolio</a>
+            <div class="nav-toggle" id="navToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#" id="themeToggle"><i class="fas fa-moon"></i></a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- person Section -->
+    <section class="person" id="home">
+        <div class="container">
+            <div class="person-content">
+                <h1>Hi, I'm <span class="highlight">Itz✓TRUST
+                </span></h1>
+                <h2>
+                    Graphic designer,
+                    Discord server developer/designer,
+                    Web Developer & Designer
+                    
+                </h2>
+                
+                <div class="person-buttons">
+                    <a href="#projects" class="btn">View My Work</a>
+                    <a href="#contact" class="btn btn-outline">Contact Me</a>
+                </div>
+            </div>
+            <div class="person-image">
+                <img src="Dark Emo Boy PFP.jpg" alt="Profile Image" class="profile-img">
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <h2 class="section-title">About <span class="highlight">Me</span></h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Who Am I?</h3>
+                    <p>I'm a Graphic designer with 3 years of experience designing thumbnails, editing poto, editing video,
+                         discord server developer/designer with 2 years of experiance crating fully functional server with all 
+                         bots and features that a community server should hold, web developer/designer with 1 years 
+                        of experience creating modern websites and web applications. I specialize in front-end development.</p>
+                    <p>When I'm not coding, you can find me hiking, watching anime, reading tech blogs, or experimenting with new frameworks.</p>
+                    <div class="about-info">
+                        <div class="info-item">
+                            <span>Name:</span>
+                            <p>Itz✓TRUST </p>
+                        </div>
+                        <div class="info-item">
+                            <span>Email:</span>
+                            <p>bishwasudas123@example.com</p>
+                        </div>
+                        <div class="info-item">
+                            <span>From:</span>
+                            <p>Hetuda, Nepal</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-stats">
+                    <div class="stat-item">
+                        <div class="stat-number" data-count="15">0</div>
+                        <div class="stat-text">Projects Completed</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number" data-count="11">0</div>
+                        <div class="stat-text">Happy Clients</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number" data-count="3">0</div>
+                        <div class="stat-text">Years Experience in grapgic designing</div>
+                        <div class="stat-number" data-count="2">0</div>
+                        <div class="stat-text">Years Experience in DCS designing</div>
+                        <div class="stat-number" data-count="1">0</div>
+                        <div class="stat-text">Years Experience web dev and designing</div> 
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills" id="skills">
+        <div class="container">
+            <h2 class="section-title">My <span class="highlight">Skills</span></h2>
+            <div class="skills-container">
+                <div class="skill-category">
+                    <h3>Discord</h3>
+                <div class="project-card" data-category="discord">
+                    <h5>For example:</h5>
+                    This is my own discord server
+                    <div class="project-image">
+                        <img src="dcs.png" alt="Community Server Design">
+                        <div class="project-overlay">
+                            <h3>Gaming Community Server</h3>
+                            <p>35+ members • Custom bots • Tiered roles</p>
+                            <div class="project-links">
+                                <a href="https://discord.gg/jRYEzKy7"><i class="fab fa-discord"></i> Join Server</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+               
+                <div class="skill-item">
+                    <div class="skill-info">
+                        <span>Discord Server Developing/Designing<i class="fab fa-discord"></i> </span>
+                        <span>90%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="90"></div>
+                    </div>
+                </div>
+
+                
+
+            <div class="box">
+                <!-- Technical Development Skills -->
+                <div class="content">
+                    <h2 class="h">Technical Development</h2>
+                    <div class="box-content">
+                        <h3>1. Discord API & Bot Development</h3>
+                        <ul>
+                            <li>Discord.js (Node.js) / Discord.py (Python)</li>
+                            <li>Slash commands, modals, context menus</li>
+                            <li>User input validation & error handling</li>
+                        </ul>
+                        <h3>2. Server Configuration</h3>
+                        <ul>
+                            <li>Roles & permission hierarchies</li>
+                            <li>Channel architecture (text/voice/categories)</li>
+                            <li>Auto-moderation setup (anti-spam, filters)</li>
+                        </ul>
+                        <h3>3. Webhooks & API Integration</h3>
+                        <ul>
+                            <li>YouTube/Twitch alert systems</li>
+                            <li>Patreon/Shopify connectivity</li>
+                            <li>Custom dashboard development</li>
+                        </ul>
+                    </div>
+                </div>
+        <!-- Moderation & Community -->
+        <div class="content">
+            <h2 class="h">Moderation & Community</h2>
+            <div class="box-content">
+                <h3>1. Automation Tools</h3>
+                <ul>
+                    <li>Ticket systems (transcripts/archiving)</li>
+                    <li>Leveling/XP systems</li>
+                    <li>Reaction roles</li>
+                </ul>
+                <h3>2. Security</h3>
+                <ul>
+                    <li>Anti-raid/verification systems</li>
+                    <li>Backup/restore procedures</li>
+                    <li>Audit logging</li>
+                </ul>
+                <h3>3. Community Engagement</h3>
+                <ul>
+                    <li>Event scheduling (Giveaway bots)</li>
+                    <li>Polls/suggestion systems</li>
+                    <li>Custom commands (!help menus)</li>
+                </ul>
+            </div>
+        </div>
+        
+                <!-- Design & UX Skills -->
+                <div class="content">
+                    <h2 class="h">Design & UX</h2>
+                    <div class="box-content">
+                        <h3>1. Design & UX</h3>
+                        <ul>
+                            <li>Server icon & banner design</li>
+                            <li>Emoji/Sticker creation</li>
+                            <li>Consistent color schemes/theming</li>
+                        </ul>
+                        <h3>2. Channel Structure</h3>
+                        <ul>
+                            <li>Intuitive navigation flow</li>
+                            <li>Onboarding experience (welcome channels)</li>
+                            <li>Role-select menus (reaction/button-based)</li>
+                        </ul>
+                        <h3>3. Embed Design</h3>
+                        <ul>
+                            <li>Rich embed formatting</li>
+                            <li>Thumbnail/color psychology</li>
+                            <li>Mobile-responsive layouts</li>
+                        </ul>
+                    </div>
+                </div>
+        
+                
+                <!-- Additional Skills Box 4 -->
+                <div class="content">
+                    <h2 class="h">Additional Skills</h2>
+                    <div class="box-content">
+                        <h3>1. Voice Channel Management</h3>
+                        <ul>
+                            <li>Stage channel setup</li>
+                            <li>Music bots configuration</li>
+                            <li>Spatial audio zones</li>
+                        </ul>
+                        <h3>2. Community Events</h3>
+                        <ul>
+                            <li>Voice chat tournaments</li>
+                            <li>Listening parties</li>
+                            <li>Audio-based games</li>
+                        </ul>
+                        <h3>3. Premium Systems</h3>
+                        <ul>
+                            <li>Tiered membership perks</li>
+                            <li>Payment gateway integration</li>
+                            <li>Exclusive content channels</li>
+                        </ul>
+                        <h3>4. Partner Networks</h3>
+                        <ul>
+                            <li>Sponsorship integrations</li>
+                            
+                            <li>Brand collaboration setups</li>
+                        </ul>
+                    </div>
+                </div>
+        
+              
+            </div>
+                <div class="skills-container">
+                    
+                    <h3>webDev</h3><br><hr>
+                <div class="skill-category">
+                    
+                    <h3>Frontend</h3>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>HTML/CSS</span>
+                            <span>95%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="95"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>JavaScript</span>
+                            <span>80%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="80"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>React</span>
+                            <span>40%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="40"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Backend</h3>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>Node.js</span>
+                            <span>10%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="10"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>Python</span>
+                            <span>70%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="70"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>MySQL</span>
+                            <span>50%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="50"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects" id="projects">
+        <div class="container">
+            <h2 class="section-title">My <span class="highlight">Projects</span></h2>
+            <div class="project-filter">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="web">Web</button>
+                <button class="filter-btn" data-filter="Discord">Discord</button>
+                <button class="filter-btn" data-filter="Graphic">Graphic</button>
+            </div>
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <div class="project-card" data-category="web">
+                    <div class="project-image">
+                        <img src="https://via.placeholder.com/600x400" alt="Project 1">
+                        <div class="project-overlay">
+                            <h3>E-commerce Website</h3>
+                            <p>Full-featured online store with payment integration</p>
+                            <div class="project-links">
+                                <a href="#"><i class="fas fa-link"></i></a>
+                                <a href="#"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project 2 -->
+                <div class="project-card" data-category="Discord">
+                    <div class="project-image">
+                        <img src="dc1.png   " alt="Project 2">
+                        <div class="project-overlay">
+                            <h3>Dicord Server</h3>
+                            <p>Fully functinal and amazing Dicord server</p>
+                            <div class="project-links">
+                                <a href="#"><i class="fas fa-link"></i></a>
+                                <a href="#"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project 3 -->
+                <div class="project-card" data-category="Graphic">
+                    <div class="project-image">
+                        <img src="bed.jpg" alt="Project 3">
+                        <div class="project-overlay">
+                            <h3>Minecraft</h3>
+                            <p>Youtube thumbnail or photo for Minecraft</p>
+                            <div class="project-links">
+                                <a href="#"><i class="fas fa-link"></i></a>
+                                <a href="#"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project 4 -->
+                <div class="project-card" data-category="Graphic">
+                    <div class="project-image">
+                        <img src="hw.jpg" alt="Project 4">
+                        <div class="project-overlay">
+                            <h3>Minecraft</h3>
+                            <p>Youtube thumbnail or photo for Minecraft</p>
+                            <div class="project-links">
+                                <a href="#"><i class="fas fa-link"></i></a>
+                                <a href="#"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project 5 -->
+                <div class="project-card" data-category="Graphic">
+                    <div class="project-image">
+                        <img src="jasmin3.png" alt="Project 5">
+                        <!-- <img src="jasmin2.png" alt="Project 5"> -->
+                        <div class="project-overlay">
+                            <h3>Youtub thumbnails</h3>
+                            <p>Youtube Thumbnails</p>
+                            <div class="project-links">
+                                <a href="#"><i class="fas fa-link"></i></a>
+                                <a href="#"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project 6 -->
+                <div class="project-card" data-category="web">
+                    <div class="project-image">
+                        <img src="portfolio.png" alt="Project 6">
+                        <div class="project-overlay">
+                            <h3>Portfolio Website</h3>
+                            <p>Custom portfolio for creative professional</p>
+                            <div class="project-links">
+                                <a href="#"><i class="fas fa-link"></i></a>
+                                <a href="#"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <h2 class="section-title">Get In <span class="highlight">Touch</span></h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Let's Talk About Your Project</h3>
+                    <p>Feel free to reach out for collaborations or just a friendly hello</p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>bishwasudas123@example.com</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <span>(+977) 9800000000</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Hetauda, Nepal</span>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-github"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-discord"></i></a>
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <input type="text" id="name" required>
+                        <label for="name">Your Name</label>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" required>
+                        <label for="email">Your Email</label>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="subject">
+                        <label for="subject">Subject</label>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" rows="5" required></textarea>
+                        <label for="message">Your Message</label>
+                    </div>
+                    <button type="submit" class="btn">Send Message</button>
+                    <div id="formMessage"></div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; <span id="year"></span> Itz✓TRUST. All Rights Reserved.</p>
+            <a href="#" class="back-to-top"><i class="fas fa-arrow-up"></i></a>
+        </div>
+    </footer>
+
+    <script src="index.js"></script>
+</body>
+</html>
